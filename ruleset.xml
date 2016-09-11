@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ruleset name="Dazzle">
+    <description>dazzle software coding standard for generic PHP project</description>
+
+    <!-- There should not be any code in the bundle images directory. -->
+    <exclude-pattern>/.git</exclude-pattern>
+    <exclude-pattern>/.svn</exclude-pattern>
+    <exclude-pattern>*/images/*</exclude-pattern>
+
+	<!-- Include the whole PSR-2 standard -->
+	<rule ref="PSR2"/>
+
+	<!-- 1. Arrays -->
+
+    <!-- Arrays syntax MUST be declared using the PHP short array syntax. -->
+	<rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+
+	<!-- 2. Classes -->
+	<!-- 3. Commenting -->
+	<!-- 4. ControlStructures -->
+	<!-- 5. Files -->
+	<!-- 6. Formatting -->
+	<!-- 7. Functions -->
+	<!-- 8. Methods -->
+	<!-- 9. Metrics -->
+	<!-- 10. Namespaces -->
+	<!-- 11. NamingConventions -->
+	<!-- 12. Objects -->
+	<!-- 13. Operators -->
+	<!-- 14. PHP -->
+	<!-- 15. Scope -->
+	<!-- 16. Strings -->
+	<!-- 17. WhiteSpace -->
+
+	<!-- All rules in ./Sniffs are included automatically -->
+</ruleset>
